@@ -12,7 +12,7 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {}
 
-  sideBarToggler() {
+  sideBarToggler(message:string) {
     this.sideBarOpen = !this.sideBarOpen;
   }
 }
